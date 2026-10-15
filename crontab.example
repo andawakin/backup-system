@@ -1,0 +1,3 @@
+# Пример записи в crontab (sudo crontab -e)
+# Ночной бэкап каждый день в 02:00
+0 2 * * * /opt/backup-system/backup.sh >> /var/log/backup-system.log 2>&1
